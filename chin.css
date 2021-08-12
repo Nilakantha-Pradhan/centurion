@@ -7,15 +7,23 @@
     background-color: rgb(50, 10, 233);
     display: inline-block;
 }
+.first:hover{
+    background-color: rgb(221, 9, 115);
+}
+img {
+    background-color: rgb(30, 190, 211);
+}
 body{
-    background-color: #e9e9e9;
+    background-color:url('cent.jfif');
 }
 .header{
     display: inline-block;
     overflow: hidden;
-  background-color: #e9e9e9;
+  background-color: #28c0d4;
   /* font-size: 34px; */
   text-align: center;
+  
+  
 }
 /* .header a{
     float:left;
@@ -33,6 +41,12 @@ body{
     background-color: rgb(50, 10, 233);
     border: 20px solid yellow;
     
+}
+.firstbaby:hover{
+    background-color:green;
+}
+.secondbaby:hover{
+    background-color: green;
 }
 .secondbaby {
 
