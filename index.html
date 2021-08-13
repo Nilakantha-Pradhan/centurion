@@ -17,9 +17,34 @@
         }
 
         body {
-            background-image: url('centt.png');
+            /* background-image: url('centt.png'); */
             background-repeat: no-repeat;
             background-size: 1600px 700px;
+        }
+
+        @media screen and (min-width: 420px) {
+            body {
+                background-color: lightgreen;
+                /* background-image: url('centt.png'); */
+            }
+
+            .h1header {
+
+                text-align: center;
+            }
+        }
+
+        @media screen and (min-width: 800px) {
+            body {
+                /* background-color: lavender; */
+                background-image: url('centt.png');
+            }
+
+            .h1header {
+                text-align: right;
+
+            }
+
         }
     </style>
     <link rel="stylesheet" href="style.css">
@@ -29,16 +54,18 @@
 
 <body>
     <header>
-        <div>
-         <div>
-        <h1 class="h1header hidden-xs">CENTURION PROJECT MANAGMENT SYSTEM</h1>
+        <div class="row">
+            <div class="col-sm-12 hidden-xs">
+                <h1 class="h1header">PROJECT MANAGMENT</h1>
             </div>
-        <div>
-           <h1 class="h1header visible-xs">MANAGMENT SYSTEM</h1>    
-                    </div>
-            
-            
+            <!-- <div class="col-xs-12 visible-xs-*">
+                <h1>project</h1>
+
+            </div> -->
+
+
         </div>
+
         <div>
             <div class="sidebar">
                 <div class="logo-details">
