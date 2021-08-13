@@ -8,12 +8,22 @@
     <title>Project managment system</title>
     <link rel="stylesheet" href="chin.css">
     <style>
+        .code {
+            color: rgb(11, 214, 79);
+            font-size: 35px;
+        }
+
         hr {
             border-style: none;
             border-top-style: dotted;
             border-color: rgb(221, 14, 14);
             border-width: 4px;
             width: 40%;
+        }
+
+        header {
+            background-color: rgb(34, 198, 204);
+            /* text-align: left; */
         }
 
         body {
@@ -24,9 +34,17 @@
 
         @media screen and (min-width: 380px) {
             body {
-                background-color: lightgreen;
-                /* background-image: url('centt.png'); */
+                /* background-color: lightgreen; */
+                background-image: url('pg1.jpg');
 
+            }
+
+            .row {
+                margin-left: 25%;
+            }
+
+            .code {
+                margin-left: 25%;
             }
 
 
@@ -35,11 +53,26 @@
         @media screen and (min-width: 800px) {
             body {
                 /* background-color: lavender; */
-                background-image: url('centt.png');
+                background-image: url('pg1.jpg');
+                background-size: 1550px 750px;
+                /* background-position: 100%; */
+
+
+            }
+
+            .row {
+                margin-left: 2%;
+                text-align: left;
+
             }
 
             .h1header {
                 text-align: center;
+                /* padding-left: 200px; */
+            }
+
+            .code {
+                margin-left: 8%;
             }
 
 
@@ -54,17 +87,28 @@
 
 <body>
     <header>
-        <div class="row" style="margin-left:20%">
+        <div class="row">
             <div class="desktop">
                 <h1 class="h1header">PROJECT MANAGMENT</h1>
             </div>
-
-
-
+        </div>
+    </header>
+    <nav>
+        <div class="code">
+            <h1>
+                Here you can <span class="type"></span>....
+            </h1>
         </div>
 
-
-
+        <script src="typed.min.js"></script>
+        <script>
+            var typed = new Typed('.type', {
+                strings: ['check projects', 'start projects', 'contribute projects'],
+                typeSpeed: 40,
+                backSpeed: 20,
+                loop: true,
+            });
+        </script>
         </div>
 
         <div>
@@ -166,8 +210,14 @@
                 }
             }
         </script>
-    </header>
+    </nav>
+    <main style="margin-left:20%">
+        <p>hey welcome to our webiste here you will get to know about project details and you can contribute
 
+            wjsdwhckfv<br>
+            jwdhucf
+        </p>
+    </main>
 
 
     <!-- <img src="logo.png" height=70px width=70px class="header">
@@ -236,5 +286,3 @@
 </body>
 
 </html>
-
-
